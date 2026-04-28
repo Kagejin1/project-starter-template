@@ -1,0 +1,30 @@
+name: Bug report
+description: Reportar un error reproducible
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripcion
+      description: Explica el problema de forma clara.
+      placeholder: Que esperabas vs que ocurrio
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Entorno
+      placeholder: OS, version, navegador, runtime, etc.

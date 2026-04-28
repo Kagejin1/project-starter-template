@@ -1,0 +1,19 @@
+* text=auto
+
+# Shell scripts and wrappers
+*.sh text eol=lf
+mvnw text eol=lf
+gradlew text eol=lf
+
+# Windows scripts
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.jar binary
+*.zip binary
